@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+/*
+    text-transform
+    text-decoration
+    outline
+    border
+    эдгээр property-ийг судлаарай
+*/
+
+.btn {
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button:disabled,
+button[disabled]{
+//   border: 1px solid #999999;
+  opacity: 0.5;
+  pointer-events: none;
+
+}
+.border{
+    border-color: gray;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.input {
+    text-decoration: none!important;
+    outline: none!important;
+    border-radius: 100px;
+    border-radius: 100px;
+    padding-left: 15px;
+}
